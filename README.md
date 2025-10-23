@@ -1,4 +1,4 @@
-```markdown
+
 # Bitcoin Ransomware Transaction Analysis
 
 ## Overview
@@ -10,12 +10,10 @@ Machine learning analysis of Bitcoin transactions to classify ransomware activit
 - Successfully handled class imbalance (93% legitimate transactions)
 
 ## Installation
-```bash
 git clone https://github.com/yourusername/Bitcoin-Ransomware-Analysis.git
 cd Bitcoin-Ransomware-Analysis
 pip install -r requirements.txt
-python cis_5450_final_project.py
-```
+
 
 ## Dataset
 BitcoinHeist Ransomware Dataset from Kaggle - 2.9M+ transactions with features including length, weight, count, looped, neighbors, and income.
