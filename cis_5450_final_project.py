@@ -10,13 +10,21 @@ Original file is located at
 Mario Valek, Siddhant Vashisht, Edwin Mui
 
 # Introduction
-For our CIS 5450 final project, we wanted to gain a better understanding of the behaviors of Bitcoin transactions. Although these transactions are all anonymous, we predicted that there could be some patterns that determine whether a particular address was considered ransomware or not. To achieve this, we utilized the BitcoinHeist Ransomware Dataset taken from Kaggle. By utilizing certain elements of a transaction, like loops, length, count, and neighbors, we wanted to classify whether or not the transaction in question was considered ransomware.
+For our CIS 5450 final project, we wanted to gain a better understanding of
+the behaviors of Bitcoin transactions. Although these transactions are all
+anonymous, we predicted that there could be some patterns that determine
+whether a particular address was considered ransomware or not. To achieve
+this, we utilized the BitcoinHeist Ransomware Dataset taken from Kaggle. By
+utilizing certain elements of a transaction, like loops, length, count, and
+neighbors, we wanted to classify whether or not the transaction in question
+was considered ransomware.
 
 # Data Loading & Preprocessing
 
 ## Importing Libraries
 
-In the following code block, we import all libraries that will be utilized in this CoLab. This includes pandas, polars, sklearn, and other helpful libraries.
+In the following code block, we import all libraries that will be utilized in
+this CoLab. This includes pandas, polars, sklearn, and other helpful libraries.
 """
 
 import os
