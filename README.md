@@ -10,9 +10,10 @@ Machine learning analysis of Bitcoin transactions to classify ransomware activit
 - Successfully handled class imbalance (93% legitimate transactions)
 
 ## Installation
-git clone https://github.com/yourusername/Bitcoin-Ransomware-Analysis.git
+git clone https://github.com/mvalek11/Bitcoin-Ransomware-Analysis.git
 cd Bitcoin-Ransomware-Analysis
 pip install -r requirements.txt
+python cis_5450_final_project.py
 
 
 ## Dataset
