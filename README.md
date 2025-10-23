@@ -1,24 +1,19 @@
 # Bitcoin Ransomware Transaction Analysis
 
 ## Overview
-Machine learning analysis of Bitcoin transactions to classify ransomware activity using the BitcoinHeist dataset.
+Machine learning analysis of Bitcoin transactions to classify ransomware activity using the BitcoinHeist dataset. This project implements multiple ML models to detect patterns indicative of ransomware money laundering through comprehensive feature engineering and hyperparameter tuning.
 
-## Features
-- Exploratory Data Analysis
-- Feature Engineering
-- Multiple ML Models (XGBoost, kNN, K-Means)
-- Hyperparameter Tuning
-- Data Visualization
+## Key Results
+- 88% Accuracy with tuned XGBoost model
+- Income identified as most important feature (0.29 importance score)
+- Successfully handled class imbalance (93% legitimate transactions)
+- Comprehensive analysis including EDA, multiple models, and feature importance
 
-## Results
-- 88% accuracy with tuned XGBoost model
-- Income identified as most important feature
-- Successful handling of class imbalance
-
-## Technologies
-Python, pandas, scikit-learn, XGBoost, matplotlib
-
-## Usage
-```bash
-pip install -r requirements.txt
-python cis_5450_final_project.py 
+## Project Structure
+Bitcoin-Ransomware-Analysis/
+├── notebooks/
+│ └── cis_5450_final_project.py
+├── data/
+│ └── dataset_info.md
+├── requirements.txt
+└── README.md
